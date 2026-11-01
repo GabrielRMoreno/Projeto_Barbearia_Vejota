@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vejota Barbearia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-secondary border-opacity-25 shadow-sm">
+        <div class="container d-flex align-items-center py-2">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="imagens/logo.png" alt="Vejota Barbearia" class="logo-vejota">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Agendar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Logo grande -->
+    <header class="py-5 text-center bg-body-tertiary">
+        <div class="container py-5 d-flex flex-column align-items-center">
+            <img src="imagens/logo.png" alt="VEJOTA BARBEARIA" class="logo-grande img-fluid">
+            <h1 class="display-5 fw-bold text-uppercase mt-2">BARBEARIA</h1>
+            <p class="lead mb-4 text-secondary">COMPROMETIDOS COM SUA AUTOESTIMA, AQUI VOCÊ VÊ O UNDERGROUND DA BARBEARIA E CORTES DE EXCELÊNCIA</p>
+            <a href="#contato" class="btn btn-warning btn-lg px-5 fw-bold text-dark rounded-pill">Agendar Horário</a>
+        </div>
+    </header>
+    <!-- Nossos Valores -->
+<section id="valores" class="py-5 bg-body-tertiary">
+    <div class="container text-center py-4">
+        <h2 class="mb-5 fw-bold"><span class="text-warning">Nossos Valores</span></h2>
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Valor 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4 bg-dark border-secondary border-opacity-25 shadow-sm">
+                    <div class="mb-3 mt-2">
+                        <i class="bi bi-shield-check text-warning" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3">Qualidade e Rigor</h4>
+                    <p class="text-secondary mb-0">Compromisso com o melhor acabamento, produtos de primeira linha e técnicas modernas em cada corte.</p>
+                </div>
+            </div>
+
+            <!-- Valor 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4 bg-dark border-secondary border-opacity-25 shadow-sm">
+                    <div class="mb-3 mt-2">
+                        <i class="bi bi-people-fill text-warning" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3">Atendimento Próximo</h4>
+                    <p class="text-secondary mb-0">Ambiente descontraído, amigável e focado em fazer cada cliente se sentir em casa.</p>
+                </div>
+            </div>
+
+            <!-- Valor 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4 bg-dark border-secondary border-opacity-25 shadow-sm">
+                    <div class="mb-3 mt-2">
+                        <i class="bi bi-lightning-charge-fill text-warning" style="font-size: 3rem;"></i>
+                    </div>
+                    <h4 class="fw-bold mb-3">Inovação e Estilo</h4>
+                    <p class="text-secondary mb-0">Sempre nos atualizandoS com as tendências do mercado para garantir um visual autêntico e de destaque.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- Serviços barbearia -->
+    <section id="servicos" class="py-5 bg-dark">
+        <div class="container py-4">
+            <h2 class="text-center mb-5 fw-bold"> <span class="text-warning">Nossos Serviços</span></h2>
+            <div class="row g-4 justify-content-center">
+                
+                <!-- Cartão: Corte -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 bg-body-tertiary border-secondary border-opacity-25 cartao-servico">
+                        <div class="mb-3 mt-2">
+                            <i class="bi bi-scissors text-warning" style="font-size: 3.5rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">Corte</h3>
+                        <p class="text-secondary mb-4">Corte moderno ou social, finalizado a sua escolha.</p>
+                        <h4 class="text-success fw-bold mt-auto mb-0">R$ 40,00</h4>
+                    </div>
+                </div>
+
+                <!-- Cartão: Barba  -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 bg-body-tertiary border-secondary border-opacity-25 cartao-servico">
+                        <div class="mb-3 mt-2">
+                            <i class="bi bi-check-circle-fill text-warning" style="font-size: 3.5rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">Barba Completa</h3>
+                        <p class="text-secondary mb-4">Alinhamento perfeito.</p>
+                        <h4 class="text-success fw-bold mt-auto mb-0">R$ 30,00</h4>
+                    </div>
+                </div>
+
+                <!-- Cartão: Combo Popular -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 bg-body-tertiary border-warning cartao-servico cartao-combo">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold" style="font-size: 0.9rem;">Combo Popular</span>
+                        </div>
+                        <div class="mb-3 mt-2">
+                            <i class="bi bi-gem text-warning" style="font-size: 3.5rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">Corte + Barba</h3>
+                        <p class="text-secondary mb-4">A experiência completa para sair renovado.</p>
+                        <h4 class="text-success fw-bold mt-auto mb-0">R$ 60,00</h4>
+                    </div>
+                <!-- Cartão: Sombracelha -->
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 bg-body-tertiary border-secondary border-opacity-25 custom-card">
+                        <div class="mb-3 mt-2">
+                            <i class="bi bi-eye text-warning" style="font-size: 3.5rem;"></i>
+                        </div>
+                    <h3 class="fw-bold mb-3">Sobrancelha</h3>
+                    <p class="text-secondary mb-4">Alinhamento e design na navalha.</p>
+                    <h4 class="text-success fw-bold mt-auto mb-0">R$ 15,00</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="py-5 bg-body-tertiary">
+        <div class="container text-center py-4">
+            <h2 class="mb-5 fw-bold"><span class="text-warning">Nossa Equipe</span></h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                    <img src="imagens/foto-junin.jpg" alt="Junin" class="mb-3 mx-auto rounded-circle border border-warning" style="width: 150px; height: 150px; border-width: 3px !important; object-fit: cover;">
+                    <h4 class="fw-bold">Junin</h4>
+                    <p class="text-warning">Barbeiro Especialista</p>
+            </div>
+        </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <img src="imagens/foto-vitim.jpg" alt="Vitim" class="mb-3 mx-auto rounded-circle border border-warning" style="width: 150px; height: 150px; border-width: 3px !important; object-fit: cover;">
+                    <h4 class="fw-bold">Vitim</h4>
+                    <p class="text-warning">Barbeiro Especialista</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento e Localização -->
+    <section id="contato" class="py-5 bg-dark">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2 class="mb-4 fw-bold">Agende seu Horário</h2>
+                    
+                    <div id="msgSucesso" class="alert alert-success d-none shadow-sm" role="alert">
+                        <i class="bi bi-check-circle-fill me-2"></i><strong>Pronto!</strong> O agendamento foi simulado com sucesso.
+                    </div>
+
+                    <form id="form_barbearia" class="bg-body-tertiary p-4 rounded-3 border border-secondary border-opacity-25 shadow-sm">
+                        <div class="mb-3">
+                            <label class="form-label text-secondary">Nome Completo</label>
+                            <input type="text" class="form-control bg-dark border-secondary text-white" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary">Serviço</label>
+                            <select class="form-select bg-dark border-secondary text-white" id="servico">
+                                <option value="Corte">Corte - R$ 40,00</option>
+                                <option value="Barba">Barba Completa - R$ 30,00</option>
+                                <option value="Sobrancelha">Sobrancelha - R$ 15,00</option>
+                                <option value="Corte + Barba">Combo (Corte + Barba) - R$ 60,00</option>
+                            </select>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col">
+                                <label class="form-label text-secondary">Data</label>
+                                <input type="date" class="form-control bg-dark border-secondary text-white" id="data" required>
+                            </div>
+                                <div class="col">
+                                    <label class="form-label text-secondary">Hora</label>
+                                        <select class="form-select bg-dark border-secondary text-white" id="hora" required>
+                                            <option value="" selected disabled>Selecione</option>
+                                            <option value="13:00">11:30</option>
+                                            <option value="13:30">12:00</option>
+                                            <option value="14:00">12:30</option>
+                                            <option value="14:30">13:00</option>
+                                            <option value="15:00">13:30</option>
+                                            <option value="15:30">14:00</option>
+                                            <option value="16:00">14:30</option>
+                                            <option value="17:00">15:00</option>
+                                            <option value="17:30">15:30</option>
+                                            <option value="18:00">16:00</option>
+                                            <option value="18:30">16:30</option>
+                                            <option value="19:00">17:00</option>
+                                            <option value="19:30">17:30</option>
+                                            <option value="20:00">18:00</option>
+                                            <option value="19:30">18:30</option>
+                                            <option value="20:00">19:00</option>
+                                            <option value="19:30">19:30</option>
+                                            <option value="20:00">20:00</option>
+                                        </select>
+                                </div>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 fw-bold py-2 text-dark rounded-pill">Confirmar Agendamento</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4 fw-bold">Nossa Localização</h2>
+                    <div class="ratio ratio-1x1 h-75 mb-3 rounded-3 overflow-hidden shadow-sm border border-secondary border-opacity-25">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886.7231112855318!2d-48.33167673030243!3d-18.95589072156417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a44330f1497e95%3A0xd3cf865b0db3877b!2sVejota%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1793555416292!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p class="text-secondary"><i class="bi bi-geo-alt-fill text-warning me-2"></i>Uberlândia - MG</p>
+                    <div class="text-center mt-auto">
+                        <a href="https://www.instagram.com/vejotabarbearia/" target="_blank" class="btn btn-outline-warning rounded-pill px-4">
+                            <i class="bi bi-instagram me-2"></i>Siga no Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-4 text-center bg-black">
+        <div class="container">
+            <p class="mb-0 text-secondary">&copy; 2026 Vejota Barbearia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

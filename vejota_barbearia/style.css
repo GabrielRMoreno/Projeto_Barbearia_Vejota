@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #212529; /* Tema escuro */
+}
+
+/* Barra de navegação*/
+.navbar {
+    background-color: #1a1d20 !important;
+}
+
+/* Logo*/
+.logo-vejota {
+    max-height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-grande {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+}
+
+/*Cartões de Serviço */
+.cartao-servico {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.cartao-servico:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4) !important;
+}
+
+/*Combo Popular */
+.cartao-combo {
+    border-width: 2px !important;
+}
+
+/* Cores*/
+.form-control:focus, .form-select:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
