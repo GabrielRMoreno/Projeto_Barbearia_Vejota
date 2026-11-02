@@ -10,7 +10,7 @@ document.getElementById('form_barbearia').addEventListener('submit', function(e)
     // Mensagem Pronta
     const texto = `Fala Junin! Meu nome é ${nome}. Quero agendar um ${servico} para o dia ${data} às ${hora}.`;
 
-    const numeroZap = "5534999468211"; 
+    const numeroZap = "5534998662286"; 
     
     // Link
     const url = `https://wa.me/${numeroZap}?text=${encodeURIComponent(texto)}`;
